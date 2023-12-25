@@ -17,4 +17,4 @@ To set up and run the app locally, follow these instructions:
 1. Clone the repo to your local environment:
    ```sh
    git clone https://github.com/your-username/stock-rsi-analytics.git
-   cd stock-rsi-analytics
+   cd rsi-analytics
