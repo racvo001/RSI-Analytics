@@ -18,3 +18,44 @@ To set up and run the app locally, follow these instructions:
    ```sh
    git clone https://github.com/your-username/stock-rsi-analytics.git
    cd rsi-analytics
+   
+# Installation and Usage
+
+To set up and run the app locally, follow these instructions:
+
+1. **Install the necessary dependencies:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+2. **Run the application using Streamlit:**
+    ```sh
+    streamlit run app.py
+    ```
+
+## Dependencies
+
+- `streamlit`
+- `pandas`
+- `seaborn`
+- `matplotlib`
+- Refer to `requirements.txt` for the complete list of required libraries.
+
+## Project Structure
+
+- `app.py` - The main script to launch the Streamlit app.
+- `src/` - Contains Python modules with the backend logic.
+  - `RSIAnalytics.py` - Handles data processing, RSI computation, and analysis.
+- `requirements.txt` - Specifies the Python dependencies for the application.
+
+## Contributions
+
+Feel free to suggest improvements, report issues, or contribute to the codebase. You can do this by creating an issue or pull request on this repository.
+
+## License
+
+This application is available under the MIT License. See the LICENSE file for more details.
+
+## Contact
+
+If you have any questions or need help, feel free to reach out by creating an issue on this repository or contacting [Nate Belete](mailto:natebelete@gmail.com).
