@@ -10,6 +10,12 @@ This Streamlit application is designed to perform analytics based on the Relativ
 - Visual charts and statistics summarizing the RSI data and expected returns.
 - Narrative analysis outlining frequent RSI patterns and suggesting possible trading strategies.
 
+## Online Access
+
+No download required! Access the RSI Analytics app directly in your browser at the following URL:
+
+[https://rsi-analytics.streamlit.app/](https://rsi-analytics.streamlit.app/)
+
 ## Getting Started
 
 To set up and run the app locally, follow these instructions:
