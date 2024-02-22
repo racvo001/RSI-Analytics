@@ -26,7 +26,7 @@ class RSIAnalytics:
         rsi_indicator = ta.momentum.RSIIndicator(close=data[column], window=period, fillna=False)
         data['RSI'] = rsi_indicator.rsi()
         data['RSI_Category'] = pd.cut(data['RSI'], bins=[-float('inf'), 20, 30, 40, 50, 60, 70, 80, float('inf')],
-                                      labels=['<20','20-30', '30-40', '40-50','50-60','70-80', '>80'])
+                                      labels=['<20','20-30', '30-40', '40-50','50-60','60-70','70-80', '>80'])
         return data
     
     def calculate_forward_rolling(self, data, column, window=5, min_periods=5, rolling_func='max'):
